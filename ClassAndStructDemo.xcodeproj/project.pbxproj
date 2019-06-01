@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2DA47E22A24D41008CCC12 /* StructVsClassInSwiftBlog.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CE2DA47D22A24D41008CCC12 /* StructVsClassInSwiftBlog.rtf */; };
 		CE46D5CA229BEF3D00D1B923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D5C9229BEF3D00D1B923 /* AppDelegate.swift */; };
 		CE46D5CC229BEF3D00D1B923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D5CB229BEF3D00D1B923 /* ViewController.swift */; };
 		CE46D5CF229BEF3D00D1B923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE46D5CD229BEF3D00D1B923 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE2DA47D22A24D41008CCC12 /* StructVsClassInSwiftBlog.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = StructVsClassInSwiftBlog.rtf; sourceTree = "<group>"; };
 		CE46D5C6229BEF3D00D1B923 /* ClassAndStructDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassAndStructDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE46D5C9229BEF3D00D1B923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE46D5CB229BEF3D00D1B923 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				CE46D5C9229BEF3D00D1B923 /* AppDelegate.swift */,
+				CE2DA47D22A24D41008CCC12 /* StructVsClassInSwiftBlog.rtf */,
 				CE46D5CB229BEF3D00D1B923 /* ViewController.swift */,
 				CE46D5CD229BEF3D00D1B923 /* Main.storyboard */,
 				CE46D5D0229BEF3D00D1B923 /* Assets.xcassets */,
@@ -124,6 +127,7 @@
 			files = (
 				CE46D5D4229BEF3D00D1B923 /* LaunchScreen.storyboard in Resources */,
 				CE46D5D1229BEF3D00D1B923 /* Assets.xcassets in Resources */,
+				CE2DA47E22A24D41008CCC12 /* StructVsClassInSwiftBlog.rtf in Resources */,
 				CE46D5CF229BEF3D00D1B923 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
