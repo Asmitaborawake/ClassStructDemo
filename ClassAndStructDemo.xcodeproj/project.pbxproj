@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CE2DA47E22A24D41008CCC12 /* StructVsClassInSwiftBlog.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE2DA47D22A24D41008CCC12 /* StructVsClassInSwiftBlog.txt */; };
+		CE2DA48022A24E92008CCC12 /* StrcutVsClass.txt in Resources */ = {isa = PBXBuildFile; fileRef = CE2DA47F22A24E92008CCC12 /* StrcutVsClass.txt */; };
 		CE46D5CA229BEF3D00D1B923 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D5C9229BEF3D00D1B923 /* AppDelegate.swift */; };
 		CE46D5CC229BEF3D00D1B923 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE46D5CB229BEF3D00D1B923 /* ViewController.swift */; };
 		CE46D5CF229BEF3D00D1B923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE46D5CD229BEF3D00D1B923 /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CE2DA47D22A24D41008CCC12 /* StructVsClassInSwiftBlog.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StructVsClassInSwiftBlog.txt; sourceTree = "<group>"; };
+		CE2DA47F22A24E92008CCC12 /* StrcutVsClass.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StrcutVsClass.txt; sourceTree = "<group>"; };
 		CE46D5C6229BEF3D00D1B923 /* ClassAndStructDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassAndStructDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE46D5C9229BEF3D00D1B923 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE46D5CB229BEF3D00D1B923 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +40,7 @@
 		CE46D5BD229BEF3D00D1B923 = {
 			isa = PBXGroup;
 			children = (
+				CE2DA47F22A24E92008CCC12 /* StrcutVsClass.txt */,
 				CE46D5C8229BEF3D00D1B923 /* ClassAndStructDemo */,
 				CE46D5C7229BEF3D00D1B923 /* Products */,
 			);
@@ -57,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				CE46D5C9229BEF3D00D1B923 /* AppDelegate.swift */,
-				CE2DA47D22A24D41008CCC12 /* StructVsClassInSwiftBlog.txt */,
 				CE46D5CB229BEF3D00D1B923 /* ViewController.swift */,
 				CE46D5CD229BEF3D00D1B923 /* Main.storyboard */,
 				CE46D5D0229BEF3D00D1B923 /* Assets.xcassets */,
@@ -127,8 +127,8 @@
 			files = (
 				CE46D5D4229BEF3D00D1B923 /* LaunchScreen.storyboard in Resources */,
 				CE46D5D1229BEF3D00D1B923 /* Assets.xcassets in Resources */,
-				CE2DA47E22A24D41008CCC12 /* StructVsClassInSwiftBlog.txt in Resources */,
 				CE46D5CF229BEF3D00D1B923 /* Main.storyboard in Resources */,
+				CE2DA48022A24E92008CCC12 /* StrcutVsClass.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

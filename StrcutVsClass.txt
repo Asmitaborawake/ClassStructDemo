@@ -1,0 +1,45 @@
+Struct VS Class in Swift 
+
+
+class is reference type , When you make a copy of a reference type, the new variable refers to the same memory location as the thing you are copying. This means that changing one will change the other since they both refer to the same memory location. Class instances are stored on Heap memory.
+e.g.
+   class SomeClass {
+    var name: String
+    init(name: String) {
+        self.name = name
+    }
+}
+
+var aClass = SomeClass(name: "Bob")
+var bClass = aClass // aClass and bClass now reference the same instance!
+bClass.name = "Sue"
+
+println(aClass.name) // "Sue"
+println(bClass.name) // "Sue"
+
+1. Must declare initialiser (constructer)
+2. Has deinitialisers
+3. Can inherit from other classes
+
+
+struct is value type, When you make a copy of a value type, it copies all the data from the thing you are copying into the new variable. They are 2 separate things and changing one does not affect the other, struct object are store in stack memory ,means struct follows first in last out.
+
+e.g.
+   struct SomeStruct {
+    var name: String
+    init(name: String) {
+        self.name = name
+    }
+}
+
+var aStruct = SomeStruct(name: "Bob")
+var bStruct = aStruct // aStruct and bStruct are two structs with the same value!
+bStruct.name = "Sue"
+
+println(aStruct.name) // "Bob"
+println(bStruct.name) // "Sue"
+
+ 1.	It has free initialiser for you , you dont have to declare initaliser if you do free initialiser will be overwritten by your declared initialiser
+1. Dont have deinitialiser
+2. Cannot inherit from other struct
+
